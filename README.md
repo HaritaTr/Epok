@@ -1,2 +1,1 @@
-# Epok
-Epok Kaydırma ve Hız Vektör Hesabı
+# Epok Kaydırma ve Hız Vektör Hesabı
