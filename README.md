@@ -20,8 +20,8 @@ Hızları bilinen kartezyen koordinatlı noktalar ile sıklaştırma alanının 
 
 3 hesaplama göreceksiniz. Her bir hesaplama kendi içinde ayrı yapılmaktadır.
 
-1. Hız vektörü hesaplamasında; projeksiyon koordinatları ve hız vektörleri bilinen 3 nokta ile sadece projeksiyon koordinatları bilinen 4. noktanın girilmesi gerekmektedir. Sıklaştırma alanımızda üç nokta ile üçgen oluşturduğumuz bölgenin içerisinde bulunan 4. noktanın hız vektörünü lineer enterpolasyon yöntemi ile buluruz.
+**1.** Hız vektörü hesaplamasında; projeksiyon koordinatları ve hız vektörleri bilinen 3 nokta ile sadece projeksiyon koordinatları bilinen 4. noktanın girilmesi gerekmektedir. Sıklaştırma alanımızda üç nokta ile üçgen oluşturduğumuz bölgenin içerisinde bulunan 4. noktanın hız vektörünü lineer enterpolasyon yöntemi ile buluruz.
 
-2. Epok hesaplamasında; saat, gün, yıl değerlerini girerek ve ay değerini seçerek epok hesaplanır.
+**2.** Epok hesaplamasında; saat, gün, yıl değerlerini girerek ve ay değerini seçerek epok hesaplanır.
 
-3. Epok kaydırma hesaplamasında; referans epoğunda (To) bulunan nokataların kartezyen koordinatları (X, Y, Z) (To) ve hız vektörleri (Vx, Vy, Vz) (To), bu değerler ile birlikte ölçü epoğu (T1) değerleri girilir. Girilen değerler sonrası epok kaydırma değeri seçilir.
+**3.** Epok kaydırma hesaplamasında; referans epoğunda (To) bulunan nokataların kartezyen koordinatları (X, Y, Z) (To) ve hız vektörleri (Vx, Vy, Vz) (To), bu değerler ile birlikte ölçü epoğu (T1) değerleri girilir. Girilen değerler sonrası epok kaydırma değeri seçilir.
