@@ -9,9 +9,9 @@ int main()
 	double X1, X2, X3, X4, Y1, Y2, Y3, Y4, VX1to, VY1to, VZ1to, VX2to, VY2to, VZ2to, VX3to, VY3to, VZ3to;
 	double Par1, Par2, Par3, VX4to, VY4to, VZ4to;
 	double Xto, Yto, Zto, VXto, VYto, VZto, T1, To;
-	//double ...???
+	double VXt1, VYt1, VZt1, Xt1, Yt1, Zt1;
 	double St, Gn, Ay, Yl;
-	//double ...???
+	double Epok;
 
 		/// HIZ VEKTÖRÜ
 	printf(" === HIZ VEKTÖRÜ ===\n");
@@ -106,10 +106,19 @@ int main()
 	printf(" \n\t === Hesaplamalar!!! === \n");
 	/* T1 epoğunda kartezyen koordinatlar;
 	> Xt1, Yt1, Zt1;
-	> VXt1 = (T1 – To) * VXto;
+	> VXt1 = (T1 - To) * VXto;
 	> Xt1 = Xto + VXt1;
 	> VYt1 =…………….
 	> Yt1 = ……………. */
+	VXt1 = (T1 - To) * VXto;
+	Xt1 = Xto + VXt1;
+	VYt1 = (T1 - To) * VYto;
+	Yt1 = Yto + VYt1;
+	VZt1 = (T1 - To) * VZto;
+	Zt1 = Zto + VZt1;
+	printf("T1 epoğunda kartezyen hesaplanması Xt1 değeri: %f\n", Xt1);
+	printf("T1 epoğunda kartezyen hesaplanması Xt1 değeri: %f\n", Yt1);
+	printf("T1 epoğunda kartezyen hesaplanması Xt1 değeri: %f\n", Zt1);
 
 
 		/// EPOK
@@ -128,10 +137,11 @@ int main()
 		/// Bilinmeyenlerin hesaplanması;
 	printf(" \n\t === Hesaplamalar!!! === \n");
 	/* Epok;
-	> T1;
 	> Saat: 0, Gün: 01, Ay: Temmuz, Yıl: 1977
 	> Ay = 31 + 28 + 31 + 30 + 31 + 30;
-	> T1 = (((St / 24) + (Gn) + Ay) / 365.25) + Yl; */
+	> Epok = (((St / 24) + (Gn) + Ay) / 365.25) + Yl; */
+	Epok = (((St / 24) + (Gn) + Ay) / 365.25) + Yl;
+	printf("Epok: %f\n", Zt1);
 
 	return 0;
 }
