@@ -11,4 +11,4 @@ Hızları bilinen kartezyen koordinatlı noktalar ile sıklaştırma alanının 
 
 > **Nokta koordinatlarının ölçme epoğuna taşınması, referans epok bilgisine doğrudan bağlıdır.**
 
-> Referans epokları yıl biriminde tanımlanır.
+> **Referans epokları yıl biriminde tanımlanır.**
