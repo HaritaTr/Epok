@@ -69,9 +69,9 @@ int main()
 	VX4to = (Par1 * VX1to) + (Par2 * VX2to) + (Par3 * VX3to);
 	VY4to = (Par1 * VY1to) + (Par2 * VY2to) + (Par3 * VY3to);
 	VZ4to = (Par1 * VZ1to) + (Par2 * VZ2to) + (Par3 * VZ3to);
-	printf("Par1 değeri: %f\n", Par1);
-	printf("Par2 değeri: %f\n", Par2);
-	printf("Par3 değeri: %f\n", Par3);
+	//printf("Par1 değeri: %f\n", Par1);
+	//printf("Par2 değeri: %f\n", Par2);
+	//printf("Par3 değeri: %f\n", Par3);
 	printf("VX4to değeri: %f\n", VX4to);
 	printf("VY4to değeri: %f\n", VY4to);
 	printf("VZ4to değeri: %f\n", VZ4to);
