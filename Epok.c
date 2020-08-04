@@ -55,7 +55,7 @@ int main()
 	printf("To epoğunda TUTGA VZ3to değerini giriniz: ");
 	scanf("%lf", &VZ3to);
 		/// Bilinmeyenlerin hesaplanması;
-	printf(" \n\t === Hesaplamalar!!! === \n");
+	printf(" \t === Hesaplamalar!!! === \n");
 	/* Üç noktadan lineer enterpolasyon ile 4. noktanın hız vektörleri; Par1, Par2, Par3, VX4to, VY4to, VZ4to;
 	> Par1 = ((X2 - X4) * (Y3 - Y2) - (Y2 - Y4) * (X3 - X2)) / ((X2 - X1) * (Y3 - Y2) - (Y2 - Y1) * (X3 - X2));
 	> Par2 = ((X3 - X4) * (Y1 - Y3) - (Y3 - Y4) * (X1 - X3)) / ((X3 - X2) * (Y1 - Y3) - (Y3 - Y2) * (X1 - X3));
@@ -77,7 +77,7 @@ int main()
 	printf("VZ4to değeri: %f\n", VZ4to);
 
 		/// EPOK KAYDIRMA
-	printf(" === EPOK KAYDIRMA ===\n");
+	printf(" \n === EPOK KAYDIRMA ===\n");
 		/// Bilinenleri isteyelim.
 	/* To epoğundaki kartezyen koordinatları;
 	> Xto, Yto, Zto; */
@@ -102,7 +102,7 @@ int main()
 	printf("Ölçü ve referans epoğu To değerini giriniz: ");
 	scanf("%lf", &To);
 		/// Bilinmeyenlerin hesaplanması;
-	printf(" \n\t === Hesaplamalar!!! === \n");
+	printf(" \t === Hesaplamalar!!! === \n");
 	/* T1 epoğunda kartezyen koordinatlar;
 	> Xt1, Yt1, Zt1;
 	> VXt1 = (T1 - To) * VXto;
@@ -120,7 +120,7 @@ int main()
 	printf("T1 epoğunda kartezyen hesaplanması Xt1 değeri: %f\n", Zt1);
 
 		/// EPOK
-	printf(" === EPOK ===\n");
+	printf(" \n === EPOK ===\n");
 		/// Bilinenleri isteyelim.
 	/* Saat, Gün, Ay, Yıl Zamanları;
 	> St, Gn, Ay, Yl; */
@@ -133,7 +133,7 @@ int main()
 	printf("Yıl değerini giriniz: ");
 	scanf("%lf", &Yl);
 		/// Bilinmeyenlerin hesaplanması;
-	printf(" \n\t === Hesaplamalar!!! === \n");
+	printf(" \t === Hesaplamalar!!! === \n");
 	/* Epok;
 	> Saat: 0, Gün: 01, Ay: Temmuz, Yıl: 1977
 	> Ay = 31 + 28 + 31 + 30 + 31 + 30;
