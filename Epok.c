@@ -76,7 +76,6 @@ int main()
 	printf("VY4to değeri: %f\n", VY4to);
 	printf("VZ4to değeri: %f\n", VZ4to);
 
-
 		/// EPOK KAYDIRMA
 	printf(" === EPOK KAYDIRMA ===\n");
 		/// Bilinenleri isteyelim.
@@ -119,7 +118,6 @@ int main()
 	printf("T1 epoğunda kartezyen hesaplanması Xt1 değeri: %f\n", Xt1);
 	printf("T1 epoğunda kartezyen hesaplanması Xt1 değeri: %f\n", Yt1);
 	printf("T1 epoğunda kartezyen hesaplanması Xt1 değeri: %f\n", Zt1);
-
 
 		/// EPOK
 	printf(" === EPOK ===\n");
